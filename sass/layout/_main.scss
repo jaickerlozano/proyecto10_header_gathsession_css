@@ -1,0 +1,81 @@
+@use '../abstracts/abstracts' as var;
+@use '../abstracts/abstracts' as mixin;
+
+// Se secciona el main en una grid de 2 columnas y 2 filas
+main {
+
+    @include mixin.breakpoint(tablet) {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 
+            'hero_content hero_img'
+            'activities activities';
+    
+        // Contiene solo el contenido del hero
+        .hero.content {
+            grid-area: hero_content;
+        }
+    
+        // Contiene la imagen del hero
+        .hero.img {
+            grid-area: hero_img;
+            align-self: center;
+    
+        }
+    
+        // Contiene el contenido de activities
+        .activities {
+            grid-area: activities;
+        }
+    }
+
+    @include mixin.breakpoint(tablethorizontal) {
+        display: grid;
+        grid-template-columns: 45% 55%;
+        grid-template-areas: 
+            'hero_content hero_img'
+            'activities hero_img';
+    
+        // Contiene solo el contenido del hero
+        .hero.content {
+            grid-area: hero_content;
+        }
+    
+        // Contiene la imagen del hero
+        .hero.img {
+            grid-area: hero_img;
+            align-self: stretch;
+    
+        }
+    
+        // Contiene el contenido de activities
+        .activities {
+            grid-area: activities;
+        }
+    }
+
+    @include mixin.breakpoint(desktop) {
+        display: grid;
+        grid-template-columns: 55% 45%;
+        grid-template-areas: 
+            'hero_content hero_img'
+            'activities hero_img';
+    
+        // Contiene solo el contenido del hero
+        .hero.content {
+            grid-area: hero_content;
+        }
+    
+        // Contiene la imagen del hero
+        .hero.img {
+            grid-area: hero_img;
+            align-self: stretch;
+    
+        }
+    
+        // Contiene el contenido de activities
+        .activities {
+            grid-area: activities;
+        }
+    }
+}

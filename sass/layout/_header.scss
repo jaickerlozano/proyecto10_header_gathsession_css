@@ -1,0 +1,43 @@
+@use '../abstracts/abstracts' as var;
+@use '../abstracts/abstracts' as mixin;
+
+header {
+    padding-top: 1rem;
+    margin-bottom: 3rem;
+
+    
+
+    @include mixin.breakpoint(desktop) {
+        margin-bottom: 6rem;
+        padding-top: 2rem;
+    }
+
+    .container {
+        display: flex;
+        gap: 1rem;
+
+        @include mixin.breakpoint(tablet) {
+            justify-content: space-between;
+        }
+    }
+
+    img {
+        width: 120px;
+        @include mixin.breakpoint(tablet) {
+            width: 235px;
+        }
+    }
+
+    ul {
+        @include mixin.reset-list();
+
+        a {
+            text-decoration: none;
+            color: var.$white;
+            &:hover {
+                text-decoration: underline;
+                color: var.$yellow;
+            }
+        }
+    }
+}

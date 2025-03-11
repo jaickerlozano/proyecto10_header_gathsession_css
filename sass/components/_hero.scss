@@ -1,0 +1,115 @@
+@use '../abstracts/abstracts' as var;
+@use '../abstracts/abstracts' as mixin;
+
+.hero {
+    margin-bottom: 2rem;
+    
+
+    @include mixin.breakpoint(tablethorizontal) {
+        margin-bottom: 0;
+    }
+
+    .container {
+        @include mixin.breakpoint(tablet) {
+            padding-right: 0;
+        }
+    }
+
+    &__content {
+        margin-bottom: 3rem;
+
+        @include mixin.breakpoint(tablethorizontal) {
+            padding-top: 3rem;
+            margin-bottom: 6rem;
+        }
+    }
+
+    &__title {
+        font-family: "Merriweather", serif;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 3rem;
+        color: var.$white;
+        margin-bottom: 1.5rem;
+
+        @include mixin.breakpoint(tablethorizontal) {
+            font-size: 3rem;
+            line-height: 4rem;
+        }
+
+        @include mixin.breakpoint(desktop) {
+            font-size: 5rem;
+            line-height: 6rem;
+        }
+    }
+
+    &__subtitle {
+        color: var.$grey;
+        line-height: 1.7rem;
+        margin-bottom: 1rem;
+
+        @include mixin.breakpoint(tablethorizontal) {
+            margin-bottom: 2rem;
+            font-size: 1.3rem;
+            line-height: 30px;
+            width: 90%;
+        }
+
+        @include mixin.breakpoint(desktop) {
+            margin-bottom: 2rem;
+            font-size: 1.5rem;
+            line-height: 40px;
+            width: 90%;
+        }
+    }
+
+    &__buttons {
+        display: flex;
+        align-items: center;
+        gap: 1.8rem;
+
+        @include mixin.breakpoint(tablethorizontal) {
+            gap: 2rem;
+        }
+
+        a:last-child {
+            display: inline-flex;
+            align-items: center;
+            color: var.$white;
+
+            &:hover {
+                scale: 1.1;
+                color: var.$yellow;
+            }
+
+            img {
+                width: 20%;
+                @include mixin.breakpoint(tablethorizontal) {
+                    width: 30%;
+                }
+            }
+        }
+    }
+
+    &__img {
+        margin-bottom: 2rem;
+        @include mixin.breakpoint(tablet) {
+            margin-bottom: 0;
+        }
+
+        img {
+            width: 100%;
+
+            @include mixin.breakpoint(tablethorizontal) {
+                width: 110%;
+            }
+
+            @include mixin.breakpoint(desktop) {
+                width: 130%;
+            }
+        }
+    }
+}
+
+
+
