@@ -1,6 +1,6 @@
 # Header GathSession - Componente Responsive
 
-![Header GathSession Preview](ruta-de-tu-imagen)
+![Header GathSession Preview](https://github.com/jaickerlozano/proyecto10_header_gathsession_css/blob/main/public/proyecto10_header_gathsession.png)
 
 ## 🏆 Descripción
 
@@ -32,9 +32,9 @@
    ```
 5. Abre tu navegador en `http://localhost:5173/`
 
-## 📸 Preview de Pantalla
+## 🎥 Preview de Pantalla
 
-_Aquí puedes incluir imágenes o GIFs mostrando el diseño del header._
+![Header GathSession Preview](https://github.com/jaickerlozano/proyecto10_header_gathsession_css/blob/main/public/proyecto10_header_gathsession.gif)
 
 ## ✨ Características
 
@@ -46,15 +46,15 @@ _Aquí puedes incluir imágenes o GIFs mostrando el diseño del header._
 
 ## 🔗 Demo en Vivo
 
-Puedes ver la versión en vivo en: [Demo de Header GathSession](https://tu-demo.com)
+Puedes ver la versión en vivo en: [Demo de Header GathSession](https://jaickerlozano.github.io/proyecto10_header_gathsession_css/)
 
 ## 📩 Contacto
 
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
 
 - 📧 **Correo:** [jlozano.dev@gmail.com](mailto:jlozano.dev@gmail.com)
-- 🔗 **LinkedIn:** [Tu Perfil](https://www.linkedin.com/in/tuusuario)
-- 🐙 **GitHub:** [@tuusuario](https://github.com/tuusuario)
+- 🔗 **LinkedIn:** [Tu Perfil](https://www.linkedin.com/in/jaicker-rafael-lozano-flores-970197264)
+- 🐙 **GitHub:** [@tuusuario](https://github.com/jaickerlozano)
 
 ---
 
