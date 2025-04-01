@@ -53,7 +53,7 @@ Puedes ver la versión en vivo en: [Demo de Header GathSession](https://jaickerl
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
 
 - 📧 **Correo:** [jlozano.dev@gmail.com](mailto:jlozano.dev@gmail.com)
-- 🔗 **LinkedIn:** [Tu Perfil](https://www.linkedin.com/in/jaicker-rafael-lozano-flores-970197264)
+- 🔗 **LinkedIn:** [Perfil LinkedIn](https://www.linkedin.com/in/jaicker-rafael-lozano-flores-970197264)
 - 🐙 **GitHub:** [@tuusuario](https://github.com/jaickerlozano)
 
 ---
